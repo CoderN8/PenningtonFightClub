@@ -99,7 +99,7 @@ MonoBehaviour:
     _serializedValue: 1288490188
   possibleAirMoves: 1
   _blendingTime:
-    _serializedValue: 429496736
+    _serializedValue: 257698032
   animationType: 1
   avatar: {fileID: 9000000, guid: 865e2ed33d9ec4d4f82fb73255026793, type: 3}
   useScaleFlip: 0
