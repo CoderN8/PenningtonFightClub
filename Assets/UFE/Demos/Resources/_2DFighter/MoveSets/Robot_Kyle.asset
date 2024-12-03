@@ -97,7 +97,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 0
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 0
     moveForward:
       id: 7238e4bf-24c0-44ee-957f-8d2b1adcebfd
@@ -182,7 +182,7 @@ MonoBehaviour:
         bodyPart: 0
         hitBoxDefinitionIndex: 0
       reference: 1
-      editorToggle: 0
+      editorToggle: 1
       soundEffectsToggle: 1
     moveBack:
       id: c9f1ac92-cf92-4a4a-9909-1fabd819ddbb

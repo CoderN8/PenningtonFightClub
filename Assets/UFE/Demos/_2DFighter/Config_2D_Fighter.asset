@@ -157,11 +157,15 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 0100000000000000020000000300000004000000050000000600000007000000
-    selectableCharactersInVersusMode: 0000000001000000020000000300000004000000050000000600000007000000
+    selectableCharactersInStoryMode: 010000000000000002000000030000000400000005000000060000000700000008000000
+    selectableCharactersInVersusMode: 000000000100000002000000030000000400000005000000060000000700000008000000
     characterStories:
-      _keys: 0000000001000000020000000300000004000000050000000600000007000000
+      _keys: 000000000100000002000000030000000400000005000000060000000700000008000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -1187,7 +1191,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 526df157e3b63934884f3d0a8ea4fdf3, type: 2}
-  - {fileID: 11400000, guid: 5310f2764ee151147a43add6403ac2fb, type: 2}
+  - {fileID: 11400000, guid: 91a723c5212aa5143831b02eb050dc14, type: 2}
+  - {fileID: 11400000, guid: 081da5b0ac64c2e4ca717694c6c1707a, type: 2}
   teamModes:
   - modeName: Tag Battle (DBZF\Marvel) - 2D 3v3 Tag Team
     teams:
@@ -2116,10 +2121,10 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
     synchronizationAction: 2
-  music: 0
-  musicVolume: 0.9
-  soundfx: 0
-  soundfxVolume: 1
+  music: 1
+  musicVolume: 0.09008998
+  soundfx: 1
+  soundfxVolume: 0.10758719
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
