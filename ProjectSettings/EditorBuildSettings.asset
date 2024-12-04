@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/UFE/Demos/_2DFighter/Demo 2D Fighter.unity
+    guid: a4f99dda2dd9d4442b85a6936f4bb0d9
   m_configObjects: {}
