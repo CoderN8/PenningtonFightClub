@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config_2D_Fighter
   m_EditorClassIdentifier: 
   version: 2
-  player1Character: {fileID: 11400000, guid: 5310f2764ee151147a43add6403ac2fb, type: 2}
-  player2Character: {fileID: 11400000, guid: 5310f2764ee151147a43add6403ac2fb, type: 2}
+  player1Character: {fileID: 0}
+  player2Character: {fileID: 0}
   player1Team:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
@@ -24,18 +24,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   selectedStage:
-    stageName: Training Room (Prefab)
+    stageName: Cherry Blossom Blood Ring
     stageLoadingMethod: 0
     stagePath: 
-    screenshot: {fileID: 2800000, guid: 08a565ac17d3e904d8d5f53e183b64d2, type: 3}
-    prefab: {fileID: 100000, guid: 064338a39a43ad647989c96c321658a2, type: 3}
-    music: {fileID: 8300000, guid: 23d573990eb71984db6595c0ac5ac4c1, type: 3}
+    screenshot: {fileID: 2800000, guid: 92a725c413966864cb0c809fe4b47828, type: 3}
+    prefab: {fileID: 5741686022845716256, guid: 7a232a7d87f78c74f98eb80d985f79a6, type: 3}
+    music: {fileID: 8300000, guid: 45e3dfe7fbfe0bf45818648bc36703c2, type: 3}
     _groundFriction:
       _serializedValue: 429496729600
     _leftBoundary:
-      _serializedValue: -158913789952
+      _serializedValue: -163208757248
     _rightBoundary:
-      _serializedValue: 158913789952
+      _serializedValue: 163208757248
     position:
       x:
         _serializedValue: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-  gameName: 2D Fighter Example
+  gameName: Pennington Fight Club
   gameplayType: 0
   selectedLanguage:
     languageName: English
@@ -157,23 +157,11 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 010000000000000002000000030000000400000005000000060000000700000008000000
-    selectableCharactersInVersusMode: 000000000100000002000000030000000400000005000000060000000700000008000000
+    selectableCharactersInStoryMode: 010000000000000002000000030000000400000005000000
+    selectableCharactersInVersusMode: 000000000100000002000000030000000400000005000000
     characterStories:
-      _keys: 000000000100000002000000030000000400000005000000060000000700000008000000
+      _keys: 000000000100000002000000030000000400000005000000
       _values:
-      - opening: {fileID: 0}
-        ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
-      - opening: {fileID: 0}
-        ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
-      - opening: {fileID: 0}
-        ending: {fileID: 0}
-        fightsGroups: []
-        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -1164,6 +1152,25 @@ MonoBehaviour:
     confirmButton: 4
     cancelButton: 5
   stages:
+  - stageName: Cherry Blossom Blood Ring
+    stageLoadingMethod: 0
+    stagePath: 
+    screenshot: {fileID: 2800000, guid: 92a725c413966864cb0c809fe4b47828, type: 3}
+    prefab: {fileID: 5741686022845716256, guid: 7a232a7d87f78c74f98eb80d985f79a6, type: 3}
+    music: {fileID: 8300000, guid: 45e3dfe7fbfe0bf45818648bc36703c2, type: 3}
+    _groundFriction:
+      _serializedValue: 429496729600
+    _leftBoundary:
+      _serializedValue: -163208757248
+    _rightBoundary:
+      _serializedValue: 163208757248
+    position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
   - stageName: Training Room (Prefab)
     stageLoadingMethod: 0
     stagePath: 
@@ -1184,12 +1191,9 @@ MonoBehaviour:
       z:
         _serializedValue: 0
   characters:
-  - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
-  - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
-  - {fileID: 11400000, guid: d6338f103bbb0da46ba6acf3b027f17a, type: 2}
-  - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
-  - {fileID: 11400000, guid: ac6ffbd93fffdbb47a2a75f1f84ecd37, type: 2}
-  - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
+  - {fileID: 11400000, guid: 4d8d3a15c8f5c1e4d9261a435c637ef1, type: 2}
+  - {fileID: 11400000, guid: 5310f2764ee151147a43add6403ac2fb, type: 2}
+  - {fileID: 11400000, guid: ec9dae3ad9cb41045b9cba7ae9207f2b, type: 2}
   - {fileID: 11400000, guid: 526df157e3b63934884f3d0a8ea4fdf3, type: 2}
   - {fileID: 11400000, guid: 91a723c5212aa5143831b02eb050dc14, type: 2}
   - {fileID: 11400000, guid: 081da5b0ac64c2e4ca717694c6c1707a, type: 2}
@@ -2122,9 +2126,9 @@ MonoBehaviour:
     synchronizationMessageFrequency: 0
     synchronizationAction: 2
   music: 1
-  musicVolume: 0.09008998
+  musicVolume: 1
   soundfx: 1
-  soundfxVolume: 0.10758719
+  soundfxVolume: 1
   colorStateOne: {r: 1, g: 0, b: 0, a: 1}
   colorIsHit: {r: 1, g: 0, b: 1, a: 1}
   colorBodyCollider: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
